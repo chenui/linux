@@ -4,10 +4,13 @@
 
 第一种，请在刚才的文件夹里打开终端，运行
 
-		./v2ray --config=/到这个文件夹的路径/config.json
+```
+./v2ray --config=/到这个文件夹的路径/config.json
+```
 
 第二种，可以建立一个桌面项，像图标一样双击运行：
 
+```
 		[Desktop Entry]
 		Name=V2Ray
 		GenericName=V2Ray Client
@@ -17,10 +20,13 @@
 		Terminal=true
 		Type=Application
 		Categories=Network;Internet;
+```
 
 保存上面的内容至`v2ray.desktop`，随后使用
 
+```
 		chmod a+x v2ray.desktop
+```
 
 就可以双击执行V2Ray了。若要想这个桌面项出现在应用程序列表里，那就把`v2ray.desktop` 文件复制到 `/usr/share/application` 里即可。（需要root）
 
