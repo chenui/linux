@@ -1,3 +1,6 @@
+Linux下v2ray客户端配置
+=====================
+
 先到`https://github.com/v2ray/v2ray-core/releases/`上下载Linux用的客户端，随后解压出一个名为「v2ray-vx.xx-linux-xx」的文件夹，把脚本最后让您下载的`config.json`放到这个文件夹里。
 
 运行软件的方式有两种：
