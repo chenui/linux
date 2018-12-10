@@ -13,6 +13,7 @@ shadowsocks的服务器端和客户端安装过程一样。服务器端命令用
   "timeout":300,
   "method":"加密方式"
 }
+```
 
 用`ss-local -c /path/of/config`就可以成功连接ss服务器。但是这时是socks5代理。可以在fedora的network设置中设置代理为manual方式，打开socks5代理。
 
